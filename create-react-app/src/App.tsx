@@ -18,7 +18,7 @@ export function App(props: AppProps) {
         <a cds-text="link" href="https://reactjs.org/">React Docs</a>
       </div>
 
-      <CdsButton action="outline" onClick={() => setShow(true)}>Hello There</CdsButton>
+      <CdsButton action="outline" onClick={() => setShow(true)} disabled>Show Alert</CdsButton>
 
       {show ? (
         <CdsAlertGroup status="info">
